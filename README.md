@@ -29,4 +29,5 @@ Lot 2 has similar summary statistics as Lot 1, which a true mean of 1500.2 and a
 Lot 3, on the other hand, has a true mean of 1496.14 and a p-value of 0.04. Because the p-value is lower that the common significance level of 0.05, we have sufficient evidence of reject the null hypothesis. This means that the mean of lot 3 is statistically different from the presumed population with a mean of 1500. 
 It is apparent that there is something wrong with the production and manufacturing of Lot 3. Lot 3's production should be halted and checked for system failure. 
 
-## Study Design: MechaCar vs Competition
+## Study Design: MechaCar vs. Competition
+One of the most compelling features that incite potential buyers to purchase a car are the cost, safety rating, and fuel efficiency. Other appealing elements include horse power and maintenance cost. To quantify how the MechaCar performs against competition, I would design a study that utilizes all five of these metrics. The null hypothesis would be that there is no difference in **cost** based on the **safety rating, fuel efficiency, horse power**, and **maintenance cost**, and the alternative hypothesis would be there is a difference in **cost** based on the **safety rating, fuel efficiency, horse power**, and **maintenance cost**.
