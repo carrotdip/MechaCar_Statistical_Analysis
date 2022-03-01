@@ -1,11 +1,13 @@
-# MechaCar_Statistical_Analysis
+# MechaCar Statistical Analysis
+
 ## Overview
 AutosRUs' new prototype, MechaCar, has been suffering from production issues. The purpose of this analysis was to review the production data to create insights on how to help the manufacturing team with production.
-![D1](https://github.com/carrotdip/MechaCar_Statistical_Analysis/blob/755705f8197e4ead8ce729101bac0b93b3a6bcf2/Deliverable%201%20-%20Summary%20LR.png)
+
 ## Linear Regression to Predict MPG
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+![D1](https://github.com/carrotdip/MechaCar_Statistical_Analysis/blob/755705f8197e4ead8ce729101bac0b93b3a6bcf2/Deliverable%201%20-%20Summary%20LR.png)\
+From the statistical summary shown above, it is apparent that **vehicle length** and **ground clearance**, based on their extremely low p-values, are likely to provide a non-random amount of variance to the miles per gallon, or mpg, values in the dataset.  This means that these two parameters have a significant impact on the mpg of the MechaCar prototype. Conversely, vehicle weight, spoiler angle, and All Wheel Drive have larger p-values, which indicates they do not have a significant impact on the mpg of the MechaCar.
+The p-value for this model is 5.35E-11, which is much smaller than the assumed significance level of 0.05. This indicates that there is sufficient evidence to reject the null hypothesis which states there is no difference in the mpg of the MechaCar based on the provided specifications. Therefore, it is safe to state that there is a difference in the mpg of the MechaCar based on the criterion. This further indicates that the slope of the linear model is **not zero**. 
+This model has an r-squared value of 0.7149, which indicates that approximately 71% of mpg prediction variance can be explained by the independent variables (vehicle length, weight, spoiler angle, ground clearance, and AWD) collectively. This indicates a linear model can predict the mpg of MechaCar prototypes effectively. 
 
 ## Summary Statistics on Suspension Coils
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
