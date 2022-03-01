@@ -11,7 +11,7 @@ The p-value for this model is 5.35E-11, which is much smaller than the assumed s
 This model has an r-squared value of 0.7149, which indicates that approximately 71% of mpg prediction variance can be explained by the independent variables (vehicle length, weight, spoiler angle, ground clearance, and AWD) collectively. This indicates a linear model can predict the mpg of MechaCar prototypes effectively. 
 
 ## Summary Statistics on Suspension Coils
-Total Summary
+Total Summary\
 ![D2](https://github.com/carrotdip/MechaCar_Statistical_Analysis/blob/078dee3a1667880b43d1a5baac69d29a18339c1c/Deliverable%202%20-%20total_summary.png)\
 Lot Summary
 ![D2.1](https://github.com/carrotdip/MechaCar_Statistical_Analysis/blob/078dee3a1667880b43d1a5baac69d29a18339c1c/Deliverable%202%20-%20lot_summary.png)\
