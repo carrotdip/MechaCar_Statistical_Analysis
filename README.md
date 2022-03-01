@@ -1,4 +1,6 @@
 # MechaCar_Statistical_Analysis
+## Overview
+AutosRUs' new prototype, MechaCar, has been suffering from production issues. The purpose of this analysis was to review the production data to create insights on how to help the manufacturing team with production.
 ## Linear Regression to Predict MPG
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Is the slope of the linear model considered to be zero? Why or why not?
